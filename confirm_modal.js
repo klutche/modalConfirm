@@ -1,7 +1,6 @@
 /************************************************************
  * Confirm Modal Plugin V1.0
  * https://github.com/klutche/confirm_modal
- * Copyright 2013 Klaus Hartl
  * Released under the MIT license
  ************************************************************/
 
