@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+/************************************************************
+ * reset css
+ ************************************************************/
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, 
+fieldset, input, textarea, p, blockquote, th, td { margin:0; padding:0; }
+html { overflow-y:scroll; }
+h1, h2, h3, h4, h5, h6, td, input { font-size:100%; font-weight:normal; }
+ol, ul { list-style:none; }
+fieldset, img { border:0; }
+caption, th { text-align:left; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal; }
+a img, li img { vertical-align:bottom; }
+
+/* html5 */
+article, aside, figure, footer, header, hgroup, nav, section { display:block; margin:0; padding:0; }
+
+/************************************************************
+ * contents
+ ************************************************************/
+
+body { position:relative; font-size:14px; line-height:20px; background:#000; }
+.bg { position:fixed; top:50%; left:50%; margin:-600px 0 0 -900px; }
+.remove_cookie { display:block; position:fixed; width:200px; height:40px; top:40%; left:50%; margin:-20px 0 0 -100px; color:#999; font-weight:bold; text-align:center; text-decoration:none; line-height:40px; background:#FFF; border:1px solid #CCC; border-radius:20px; box-shadow:0 5px 10px rgba(0,0,0,0.4); cursor:pointer; }
+.remove_cookie:hover { color:#333; }
+
+/************************************************************
+ * modal
+ ************************************************************/
+
+.modal { position:fixed; display:none; z-index:9999; top:40%; left:50%; width:400px; height:190px; margin:-116px 0 0 -221px; padding:20px; color:#FFF; text-align:center; border:1px solid #FFF; border-radius:10px; }
+.modal img { vertical-align:bottom; }
+.modal p { margin-bottom:10px; }
+.modal ul { text-align:center; }
+.modal li { display:inline; }
+.modal a { cursor:pointer; }
