@@ -2,7 +2,7 @@
 
 ## まずはデモ
 
-<a href="http://klutche.org/demo/confirm_modal/" target="_blank" class="link">デモページ</a>
+<a href="http://klutche.github.io/modalConfirm/" target="_blank">デモページ</a>
 
 五木川ダムの渋い魅力はアダルトな感じがするので、年齢認証を設置してみました。
 モーダルウインドウは、シックに単色背景透明で作ってみましたが、見た目はCSSで自由に変更できます。
@@ -15,14 +15,14 @@ Javascript を3つ使います。
 
 <a href="https://github.com/carhartl/jquery-cookie" target="_blank">jquery.cookie.js</a>
 
-<a href="https://github.com/klutche/confirm_modal" target="_blank">confirm_modal.js</a>
+<a href="http://klutche.github.io/modalConfirm/js/modalConfirm.js" target="_blank">modalConfirm.js</a>
 
 jQueryはGoogleライブラリから直接読み込みましょう。
 のこり2つのファイルはアップロードしてヘッダ内で読み込みます。
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.cookie.js"></script>
-    <script type="text/javascript" src="js/confirm_modal.js"></script>
+    <script type="text/javascript" src="js/modalConfirm.js"></script>
 
 ## HTML
 
@@ -57,7 +57,7 @@ HTMLの最後にモーダルとして表示させる部分を書き込みます�
 ## 設定
 
 一度認証を通過した後は、Cookie 制御で一定時間はモーダルを再表示しないようになっています。
-再表示までの時間や、モーダル化するクラス名は、confirm_modal.js 内で設定可能です。
+再表示までの時間や、モーダル化するクラス名は、modalConfirm.js 内で設定可能です。
 
     var modal = $(".modal");//モーダルウインドウのクラス
     var opacity = 0.9;//モーダル背景の透明度
@@ -66,7 +66,7 @@ HTMLの最後にモーダルとして表示させる部分を書き込みます�
 
 ## 最後にもう一度アダルトなダムを
 
-<a href="http://klutche.org/demo/confirm_modal/" target="_blank" class="link">デモページ</a>
+<a href="http://klutche.github.io/modalConfirm/" target="_blank">デモページ</a>
 
 先程年齢認証を通過した状態であればモーダルウインドウは表示されないはずです。
 
